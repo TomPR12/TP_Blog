@@ -1,0 +1,76 @@
+/* Applique une police de caractères personnalisée */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Donne un style au titre principal */
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 50px;
+  }
+  
+  /* Donne un style aux sous-titres */
+  h2 {
+    font-size: 24px;
+    margin-top: 30px;
+  }
+  
+  /* Donne un style au texte principal */
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 20px;
+  }
+  
+  /* Donne un style au formulaire de contact */
+  form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Donne un style au bouton de soumission */
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  /* Donne un style à l'en-tête de la page */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  /* Donne un style au lien de navigation actif */
+  nav a.active {
+    color: #4CAF50;
+    text-decoration: underline;
+  }
+  
+  /* Donne un style au lien de navigation */
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  /* Donne un style au pied de page */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  

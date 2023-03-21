@@ -1,0 +1,109 @@
+/* Styles de base */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  /* Styles pour l'en-tête */
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  nav {
+    margin-top: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  /* Styles pour le contenu principal */
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-size: 25px;
+  }
+  
+  article {
+    margin-bottom: 20px;
+  }
+  
+  article h3 {
+    margin-top: 0;
+  }
+  
+  article p {
+    margin: 0;
+  }
+  
+  article a {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #0066cc;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+
+  /* Styles pour le bouton "Lire la suite" */
+button {
+    background-color: #0066cc;
+    border: none;
+    color: white; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    cursor: pointer;
+}
+
+  
+  /* Styles pour le pied de page */
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 21px;
+  }
+ 
+  .meta {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  time {
+    font-style: italic;
+  }
